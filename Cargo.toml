@@ -1,0 +1,32 @@
+[package]
+name = "rust-advent"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "exercise1"
+path = "src/exercise1.rs"
+
+[[bin]]
+name = "exercise1_1"
+path = "src/exercise1.1.rs"
+
+[[bin]]
+name = "exercise2"
+path = "src/exercise2.rs"
+
+[[bin]]
+name = "exercise2_2"
+path = "src/exercise2.2.rs"
+
+[[bin]]
+name = "exercise3"
+path = "src/exercise3.rs"
+
+[[bin]]
+name = "exercise3_2"
+path = "src/exercise3.2.rs"
